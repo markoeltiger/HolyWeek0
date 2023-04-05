@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mark.holyweek">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="رحلة القيامة"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+  
+        <activity
+            android:name=".Home"
+            android:label="أتقل"
+            tools:ignore="DuplicateActivity">
+
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="عن التطبيق" />
+        <activity
+            android:name=".Saturday"
+            android:label="سبت النور" />
+        <activity
+            android:name=".Friday"
+            android:label="الجمعة العظيمة" />
+        <activity
+            android:name=".Thursday"
+            android:label="خميس العهد" />
+        <activity
+            android:name=".wednsday"
+            android:label="أربعاء البصخة المقدسة" />
+        <activity
+            android:name=".Tuesday"
+            android:label="ثلاثاء البصخة المقدسة" />
+        <activity
+            android:name=".Monday"
+            android:label="أثنين البصخة المقدسة" />
+        <activity
+            android:name=".Sunday"
+            android:label="أحد الشعانين" />
+        <activity android:name=".MainActivity" android:label="رحلة القيامة">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "128524894335",
+    "firebase_url": "https://holy-week-4fb5a.firebaseio.com",
+    "project_id": "holy-week-4fb5a",
+    "storage_bucket": "holy-week-4fb5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128524894335:android:bae6f8276c5d1b083aff4a",
+        "android_client_info": {
+          "package_name": "com.mark.holyweek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128524894335-10kfgegesqemreea94pt4upmo2b2fi50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mark.holyweek",
+            "certificate_hash": "2d456dded1010e2e5faa0ee42ff78272df00ef2d"
+          }
+        },
+        {
+          "client_id": "128524894335-so3lc4cope7333ubi293s2air5c3f4ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn18R1z62slzFH_f2uxqkmU4gDH4DQeMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128524894335-so3lc4cope7333ubi293s2air5c3f4ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

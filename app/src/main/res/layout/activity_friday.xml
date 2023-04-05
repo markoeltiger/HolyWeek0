@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sadback"
+    tools:context=".Friday">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/play"
+                />
+            <Button
+                android:id="@+id/pause"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/pause"
+                />
+
+            <Button
+                android:id="@+id/zoomin"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/zoomin" />
+
+            <Button
+                android:id="@+id/zoomout"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+
+                android:background="@drawable/ic_zoom_out_black_24dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            android:layout_margin="15dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/fri1" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/firstarabic"
+            android:shadowColor="#000000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="@string/fri1"
+            android:textColor="#FAFFFFFF"
+            android:textColorHint="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/fri2" />
+            android:layout_margin="15dp"
+
+        <TextView
+            android:fontFamily="@font/firstarabic"
+            android:id="@+id/text2"
+            android:textColor="#FAE70D0D"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowColor="#FFFFFF"
+            android:shadowRadius="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/fri2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
